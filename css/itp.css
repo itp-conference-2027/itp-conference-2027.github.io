@@ -1,0 +1,18 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin:0px;
+}
+
+#container {
+  margin: auto;
+  max-width: 1080px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
