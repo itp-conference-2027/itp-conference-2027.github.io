@@ -4,16 +4,10 @@
 
 body {
   margin:0px;
-  background-color: #fef4d1;
+  background-color: light-dark(#fef4d1,#7a7482);
 }
 
 #container {
   margin: auto;
-  max-width: 1080px;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 1000px;
 }
