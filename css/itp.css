@@ -59,3 +59,31 @@ body {
 #container h2 > a:hover {
   text-decoration: underline;
 }
+
+.sponsorship-row {
+  display: flex;
+}
+
+.sponsorship-row > div {
+  margin: 10px;
+}
+
+.sponsorship-rose {
+  width: 128px;
+}
+
+.sponsorship-rose > img {
+  width: 128px;
+}
+
+#sponsorship-gold > .sponsorship-rose {
+  filter: invert(65%) sepia(86%) saturate(345%) hue-rotate(9deg) brightness(97%) contrast(90%);
+}
+
+#sponsorship-silver > .sponsorship-rose {
+  filter: invert(90%) sepia(0%) saturate(756%) hue-rotate(134deg) brightness(86%) contrast(90%);
+}
+
+#sponsorship-bronze > .sponsorship-rose {
+  filter: invert(85%) sepia(26%) saturate(5047%) hue-rotate(333deg) brightness(83%) contrast(92%);
+}
