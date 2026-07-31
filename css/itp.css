@@ -21,6 +21,7 @@ body {
 
 #header {
   display: flex;
+  justify-content: space-around;
   margin: 15px auto 15px auto;
 }
 
@@ -42,12 +43,12 @@ body {
 }
 
 #itp-logo {
-  width: 200px;
+  width: 128px;
   display: flex;
   flex-direction: column;
   font-family: Rennie_Mackintosh_ITC;
   font-weight: bold;
-  font-size: 55px;
+  font-size: 35px;
 }
 
 #itp-logo > div {
@@ -88,7 +89,7 @@ body {
 }
 
 .mackintosh-rose > img {
-  width: 128px;
+  width: 100px;
 }
 
 #sponsorship-gold > .mackintosh-rose {
