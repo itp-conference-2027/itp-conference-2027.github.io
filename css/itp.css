@@ -107,3 +107,22 @@ body {
 #sponsorship-bronze > .mackintosh-rose {
   filter: invert(90%) sepia(10%) saturate(5047%) hue-rotate(333deg) brightness(83%) contrast(92%);
 }
+
+.two-columns {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+  padding: 0 20px 0 0;
+}
+
+.right-column {
+  flex: 1;
+  padding: 0 0 0 20px;
+}
+
+.organisers {
+  list-style: none;
+  padding-inline-start: 0px;
+}
