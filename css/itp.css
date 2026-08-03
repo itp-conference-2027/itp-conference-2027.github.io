@@ -92,14 +92,18 @@ body {
   width: 100px;
 }
 
+#sponsorship-edi > .mackintosh-rose {
+  filter: invert(11%) sepia(62%) saturate(300%) hue-rotate(233deg) brightness(90%) contrast(105%);
+}
+
 #sponsorship-gold > .mackintosh-rose {
-  filter: invert(65%) sepia(86%) saturate(345%) hue-rotate(9deg) brightness(97%) contrast(90%);
+  filter: invert(75%) sepia(96%) saturate(345%) hue-rotate(9deg) brightness(97%) contrast(90%);
 }
 
 #sponsorship-silver > .mackintosh-rose {
-  filter: invert(90%) sepia(0%) saturate(756%) hue-rotate(134deg) brightness(86%) contrast(90%);
+  filter: invert(90%) sepia(4%) saturate(756%) hue-rotate(134deg) brightness(86%) contrast(90%);
 }
 
 #sponsorship-bronze > .mackintosh-rose {
-  filter: invert(85%) sepia(26%) saturate(5047%) hue-rotate(333deg) brightness(83%) contrast(92%);
+  filter: invert(90%) sepia(10%) saturate(5047%) hue-rotate(333deg) brightness(83%) contrast(92%);
 }
