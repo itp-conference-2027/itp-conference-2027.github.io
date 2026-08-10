@@ -10,7 +10,7 @@
 }
 
 .Mackintosh {
-  font-family: RennieMackintosh;
+  font-family: Rennie_Mackintosh_ITC;
 }
 
 body {
@@ -72,9 +72,8 @@ img {
 #container h2 > a {
   text-decoration: none;
   text-color: initial;
-  content: "";
   background-position: left center;
-  background-image: url(../assets/bullet.png);
+  background-image: url(../assets/bullet-h2.png);
   background-repeat: no-repeat;
   padding: 0px 5px 1px 16px;
 }
@@ -134,8 +133,14 @@ img {
   .right-column { padding-left: 20px; }
 }
 
+ul {
+  padding-inline-start: 10px;
+}
 
-.organisers {
-  list-style: none;
-  padding-inline-start: 0px;
+li {
+  list-style-type: none;
+  background-image: url('../assets/bullet-list.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 12px;
 }
