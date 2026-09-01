@@ -26,11 +26,11 @@ body {
 }
 
 #itp-title {
+  padding-left: 20px;
   flex: 5;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
 #itp-title h1 {
@@ -40,6 +40,11 @@ body {
 
 #itp-title h2 {
   font-size: 19px;
+  margin: 0;
+}
+
+#itp-title h3 {
+  font-size: 15px;
   margin: 0;
 }
 
