@@ -119,8 +119,9 @@ img {
   filter: invert(90%) sepia(10%) saturate(5047%) hue-rotate(333deg) brightness(83%) contrast(92%);
 }
 
+/* original colour #6FC276, converted using https://clampcss.com/css-filter.html */
 #sponsorship-student > .mackintosh-rose {
-  filter: invert(89%) sepia(62%) saturate(300%) hue-rotate(233deg) brightness(90%) contrast(105%);
+  filter: brightness(83%) saturate(100%) invert(81%) sepia(18%) saturate(974%) hue-rotate(71deg) brightness(83%) contrast(88%);
 }
 
 .two-columns {
